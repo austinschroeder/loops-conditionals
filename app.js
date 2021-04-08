@@ -11,16 +11,16 @@
 
 ////// Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 //////For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
-const kitty = 'Love me, pet me! HSSSSSS!';
-const kittyArray = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
-for (let i = 0; i < 20; i++) {
-    if (i % 2 === 1) {
-    console.log(kitty);
-    } else {
-        const randomIndex = Math.floor(Math.random() * 3)
-    console.log(kittyArray[randomIndex]);
-    }
-}
+//const kitty = 'Love me, pet me! HSSSSSS!';
+//const kittyArray = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+// for (let i = 0; i < 20; i++) {
+//     if (i % 2 === 1) {
+//     console.log(kitty);
+//     } else {
+//         const randomIndex = Math.floor(Math.random() * 3)
+//     console.log(kittyArray[randomIndex]);
+//     }
+// }
 
 
 ////// Write a javascript application that logs all numbers from 1 - 100 AND:
@@ -30,17 +30,17 @@ for (let i = 0; i < 20; i++) {
 ////// If a number is divisible by 5 log "Buzz" instead of the number.
 
 ////// If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz".
-// for (let i = 0; i <= 100; i++) {
-//     if ((i % 3 === 0) && (i % 5 === 0)) {
-//         console.log('FizzBuzz');
-//     } else if (i % 5 === 0) {
-//         console.log('Buzz');
-//     } else if (i % 3 === 0) {
-//         console.log('Fizz');
-//     } else {
-//         console.log(i);
-//     }
-// }
+for (let i = 0; i <= 100; i++) {
+    if ((i % 3 === 0) && (i % 5 === 0)) {
+        console.log('FizzBuzz');
+    } else if (i % 5 === 0) {
+        console.log('Buzz');
+    } else if (i % 3 === 0) {
+        console.log('Fizz');
+    } else {
+        console.log(i);
+    }
+}
 
 ////// Use the following arrays to answer the questions below (name, age, hometown):
 const kenny = ["Kenny", 1000, "Austin"];
