@@ -30,17 +30,17 @@
 ////// If a number is divisible by 5 log "Buzz" instead of the number.
 
 ////// If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz".
-for (let i = 0; i <= 100; i++) {
-    if ((i % 3 === 0) && (i % 5 === 0)) {
-        console.log('FizzBuzz');
-    } else if (i % 5 === 0) {
-        console.log('Buzz');
-    } else if (i % 3 === 0) {
-        console.log('Fizz');
-    } else {
-        console.log(i);
-    }
-}
+// for (let i = 0; i <= 100; i++) {
+//     if ((i % 3 === 0) && (i % 5 === 0)) {
+//         console.log('FizzBuzz');
+//     } else if (i % 5 === 0) {
+//         console.log('Buzz');
+//     } else if (i % 3 === 0) {
+//         console.log('Fizz');
+//     } else {
+//         console.log(i);
+//     }
+// }
 
 ////// Use the following arrays to answer the questions below (name, age, hometown):
 const kenny = ["Kenny", 1000, "Austin"];
@@ -50,13 +50,13 @@ const jimClark = ["Jim C", 186, "LA"];
 const ryan = ["Ryan", 65, "Denver"];
 ////// Jim Clark decides that Kenny can't be named "Kenny" anymore. Remove "Kenny" from the kenny array and replace it with "Gameboy".
 kenny.splice(0, 1, 'Gameboy');
-//console.log(kenny);
+console.log(kenny);
 ////// Jim Clark just had his birthday; change jimClark's array to reflect him being a year older. Don't just hard code 187--pretend that you didn't already know that his age is 186, and write your code to just make him a year older than whatever age he was.
 jimClark.splice(1, 1, jimClark[1] + 1);
-//console.log(jimClark);
+console.log(jimClark);
 ////// Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
 ryan.splice(2, 1, "Gotham City");
-//console.log(ryan);
+console.log(ryan);
 ////// Reuben left Durham 5 years ago to come to Chicago. First, remove "Durham" from Reuben's array, and then add "Chicago".
 reuben.pop()
 reuben.push('Chicago');
@@ -64,10 +64,10 @@ reuben.push('Chicago');
 ////// Jim Haff could be literally anywhere in the world. Remove "All cities" from his array, then pick any 3 cities you like, and add them to Jim's array.
 jimHaff.pop()
 jimHaff.push('Boston', 'Atlanta', 'Nashville');
-//console.log(jimHaff);
+console.log(jimHaff);
 ////// Bonus: Whoops! Jim Haff is actually only allowed to be in one of two cities. Whatever the first of the 3 cities for Jim Haff is now, remove it from the array using
 jimHaff.splice(2, 1);
-//console.log(jimHaff);
+console.log(jimHaff);
 
 ////// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 const turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
